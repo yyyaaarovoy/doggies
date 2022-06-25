@@ -1,0 +1,39 @@
+.table {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 30px 20px;
+  margin: 0;
+  padding: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .table {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .table {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .table {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+@media screen and (min-width: 2560px) {
+  .table {
+    grid-template-columns: repeat(6, 1fr);
+  }
+}
+
+.noItems {
+  text-align: center;
+  color: #c291e2;
+  font-weight: bold;
+  font-size: 24px;
+  margin: 10px 0;
+}

@@ -1,0 +1,25 @@
+.profile {
+  margin: 50px 10%;
+  text-align: center;
+}
+
+.profile h1 {
+  font-size: 50px;
+  margin: 20px;
+}
+
+.profile span {
+  text-decoration: underline;
+  color: #38015c;
+}
+
+.spinner {
+  display: flex;
+  justify-content: center;
+
+  margin-top: 50px;
+}
+
+.main {
+  margin: 30px 10%;
+}
